@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css" integrity="sha512-F2E+YYE1gkt0T5TVajAslgDfTEUQKtlu4ralVq78ViNxhKXQLrgQLLie8u1tVdG2vWnB3ute4hcdbiBtvJQh0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container"> 
+        
+        <div id="gallery2">
+
+        </div>   
+   </div>
+    <!-- <div class="music">
+
+    </div> -->
+<!-- <audio src=""></audio> -->
+<style>
+.container{
+    /* max-width: 800px; */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start; */
+    
+}
+.container img{
+    display: flex;
+    max-width: 350px;
+    margin: 15px;
+}
+#gallery2{
+    margin: 100px auto;
+    display: grid;
+grid-template-columns: 300px 300px;
+gap: 20px;
+column-gap: 90px;
+margin: 20px auto;
+}
+
+@media only screen and (max-width:650px) {
+    body{
+        background-color: aqua;
+    }
+    .container #gallery2 img{
+    
+    max-width: 600px;
+    height: auto;
+    margin: 10px;
+    } 
+    #gallery2{
+    margin: 50px auto;
+    display: grid;
+grid-template-columns: 100px;
+gap: 50px;
+column-gap: 60px;
+
+} 
+}
+
+</style>
+<script src="main.js">
+    //  lightGallery(document.getElementById('lightgallery'), {
+    //     plugins: [lgZoom, lgThumbnail],
+    //     speed: 500,
+    //     licenseKey: "0000-0000-000-0000"
+         
+    // });
+    
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js" integrity="sha512-pG+XpUdyBtp28FzjpaIaj72KYvZ87ZbmB3iytDK5+WFVyun8r5LJ2x1/Jy/KHdtzUXA0CUVhEnG+Isy1jVJAbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
